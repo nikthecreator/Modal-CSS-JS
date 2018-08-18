@@ -42,7 +42,7 @@
     color: white;
     float: right;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: normal;
 }
 .close:hover,
 .close:focus {
@@ -51,9 +51,17 @@
     cursor: pointer;
 }
 .modal-header {
+    height: 50px;
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #212121;
     color: white;
+}
+.modal-header-content {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .modal-body {padding: 2px 16px;}
 .modal-footer {
